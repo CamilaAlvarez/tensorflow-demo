@@ -1,0 +1,8 @@
+gpu: 0
+data-location: /home/calvarez/DeepLearning/Clothing-VGG16-TF/clothes-train.tfrecords
+base-model: /home/calvarez/DeepLearning/tensorflow/vgg16_weights.npz
+max-epochs: 340
+network: vgg16
+classes-file: /home/calvarez/DESCRIPTORS_WHERE_TO_BUY_IT/EXPERIMENTS/FULL/clothes.names
+use-numpy: True
+base-output-dir: /home/calvarez/DeepLearning/vgg16-tensorflow/

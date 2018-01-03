@@ -1,0 +1,10 @@
+image-list: /home/u-vision/clothing-dataset/train.txt
+mean-pixel:
+ r: 148.34253445
+ g: 136.088012
+ b: 130.3602376
+class-list: /home/calvarez/DESCRIPTORS_WHERE_TO_BUY_IT/EXPERIMENTS/FULL/clothes.names
+output-file: /home/calvarez/DeepLearning/Clothing-VGG16-TF/clothes-train.tfrecords
+image-size:
+ width: 224
+ height: 224
